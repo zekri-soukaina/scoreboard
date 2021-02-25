@@ -1,0 +1,18 @@
+.Scoreboard {
+  margin: 20px;
+}
+.sort_order {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+  margin: 5px;
+  padding: 5px;
+  border: 1px solid grey;
+}
+.player {
+  border: 1px solid grey;
+  margin: 5px;
+  padding: 5px;
+  display: flex;
+}

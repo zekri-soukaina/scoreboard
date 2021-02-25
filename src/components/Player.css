@@ -1,0 +1,41 @@
+.Player {
+  padding-left: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 5px;
+  font-weight: bold;
+}
+.Player p {
+  display: flex;
+  align-items: center;
+  border: 1px solid rgb(196, 190, 190);
+  background-color: honeydew;
+  height: 50px;
+  width: 100%;
+  margin-top: 5px;
+  padding-left: 15px;
+}
+.Player button {
+  height: 53px;
+  margin-top: 5px;
+  background-color: rgb(202, 148, 240);
+}
+.button {
+  /* all: inherit;
+  display: inline; */
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  border: 2px solid #ccc;
+  font-weight: bold;
+  transition: all 0.2s ease;
+}
+.button:hover {
+  transform: scale(1.05);
+}
+.button:active {
+  transform: scale(0.95);
+  color: #111;
+  border-color: #111;
+}

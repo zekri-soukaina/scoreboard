@@ -1,0 +1,4 @@
+.AddPlayerForm {
+  display: flex;
+  flex-direction: row;
+}
